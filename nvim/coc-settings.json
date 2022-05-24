@@ -1,0 +1,9 @@
+{
+    "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "scss", "javascriptreact", "javascript", "typescript", "typescriptreact", "html"],
+    "hover.floatConfig": {
+        "border": true
+    },
+    "diagnostic.floatConfig": {
+        "border": true
+    }
+}
