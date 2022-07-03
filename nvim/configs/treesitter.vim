@@ -11,6 +11,16 @@ require'nvim-treesitter.configs'.setup {
   },
   context_commentstring = {
     enable = true
+  },
+  rainbow = {
+      enable = true,
+      extended_mode = false,
+  },
+  autotag = {
+    enable = true,
+  },
+  autopairs = {
+      enable = true,
   }
 }
 EOF

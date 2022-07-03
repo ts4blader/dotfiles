@@ -11,7 +11,6 @@ set nofoldenable
 set mouse=a
 set exrc
 set nu
-set nohlsearch
 set formatoptions-=t
 set ignorecase
 set smartcase
@@ -26,7 +25,8 @@ set noshowmode
 set completeopt=menu,menuone,noselect
 set signcolumn=yes
 set updatetime=50
-set clipboard+=unnamedplus " Copy paste between vim and everything else
+set clipboard=unnamed
+set background=dark
 set nojoinspaces " don't autoinsert two spaces after '.', '?', '!' for join command
 set showcmd " extra info at end of command line
 set wildignore+=*/node_modules/**
@@ -43,7 +43,6 @@ set lazyredraw
 
 " Syntax
 syntax enable
-
 " Italics
 let &t_ZH="\e[3m"
 let &t_ZR="\e[23m"

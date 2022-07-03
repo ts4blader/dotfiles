@@ -1,9 +1,22 @@
 {
     "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "scss", "javascriptreact", "javascript", "typescript", "typescriptreact", "html"],
     "hover.floatConfig": {
-        "border": true
+        "border": true,
+        "maxWidth": 800,
+        "maxHeight": 500
+    },
+    "signature.floatConfig": {
+        "border": true,
+        "maxWidth": 800,
+        "maxHeight": 500
+    },
+    "suggest.floatConfig": {
+        "border": true,
+        "maxWidth": 800
     },
     "diagnostic.floatConfig": {
-        "border": true
+        "border": true,
+        "maxWidth": 800,
+        "maxHeight": 500
     }
 }

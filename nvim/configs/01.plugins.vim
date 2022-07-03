@@ -60,6 +60,7 @@ Plug 'JoosepAlviste/nvim-ts-context-commentstring'
 Plug 'MaxMEllon/vim-jsx-pretty' " fix indentation in jsx until treesitter can
 Plug 'jxnblk/vim-mdx-js'
 Plug 'HerringtonDarkholme/yats.vim'
+Plug 'cakebaker/scss-syntax.vim'
 
 " Emmet and tag playing
 Plug 'mattn/emmet-vim'
